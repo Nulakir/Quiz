@@ -1,0 +1,123 @@
+<!-- In dit bestand staat de HTML-code voor je Quiz. Je kunt deze code aanpassen. -->
+
+<!DOCTYPE html>
+<html lang="NL">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>De leukste quiz!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+
+
+
+<body>
+
+
+    <div class="page" id="nummerPage">
+        <h2>welkom bij de quiz!</h2>
+        <p>Vul je studentnummer in op verder te gaan. </p>
+        <label for="studentnummer">Studentnummer:</label>
+        <input type="text" id="studentnummer" placeholder="s1234567">
+        <button id="inloggen">inloggen</button>
+
+    </div>
+
+    <div class="page" id="page-start">
+        <div class="bovenmidden" id="boven">
+            <h1>Welkom bij de leukste quiz!</h1>
+            <h2>Speel de quiz en test je kennis over HTML, CSS en JavaScript!</h2>
+
+        </div>
+
+
+        <div class="bovenmidden" id="midden">
+            <h2>Instructies</h2>
+            <p>Dit is een multiple choice quiz over HTML, Java-script en CSS. Je hebt vier mogelijkheden om te
+                antwoorden. Als de quiz klaar is zie je de resultaten. Je klikt op het antwoord dat je wilt geven en
+                dan moet je op volgende klikken. Je kunt je antwoord niet wijzigen dus kies goed! De quiz bestaat uit
+                20 vragen en zal ongeveer 5 minuten duren.</p>
+        </div>
+
+        <nav>
+            <button class="buttons" id="button-start">Start</button>
+            <button class="buttons" id="button-questions">Vragen</button>
+
+        </nav>
+
+    </div>
+
+
+
+
+
+    <div class="page" id="page-questions">
+
+
+        <div class="vragentitel" id="titeleen">
+            <h2>vraag <span id="vraagCounter">1</span></h2>
+
+        </div>
+
+        <div class="vragen" id="devraag">
+            <p></p>
+
+        </div>
+
+        <div>
+            <p id="studentNummerShow"></p>
+
+        </div>
+
+        <div class="fixed" id="vragenGoed">
+            <p>Aantal antwoorden goed: 0</p>
+        </div>
+
+        <div class="antwoordOpties">
+            <div class="buttonsvr">
+                <button id="a0"><span id="optie0"></span></button>
+            </div>
+            <div class="buttonsvr">
+                <button id="a1"><span id="optie1"></span></button>
+            </div>
+            <div class="buttonsvr">
+                <button id="a2"><span id="optie2"></span></button>
+            </div>
+            <div class="buttonsvr">
+                <button id="a3"><span id="optie3"></span></button>
+            </div>
+        </div>
+
+        <div>
+            <button id="Volgende">Volgende</button>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="page" id="eindpage">
+        <h1 class="eindStyle" id="boveneind">Einde</h1>
+        <p class="eindStyle" id="resultaat"></p>
+        <p class="eindStyle" id="ondereind">Bedankt voor het spelen van de quiz!</p>
+        
+
+
+
+
+
+
+    </div>
+
+    <script src="js/quiz.js"></script>
+</body>
+
+
+
+
+
+</html>

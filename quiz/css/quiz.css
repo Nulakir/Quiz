@@ -1,0 +1,171 @@
+/* Plaats je CSS-code in dit bestand */
+
+#boven{
+    background-color: rgb(80, 235, 132);
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    font-size: 40px;
+    margin: 0;
+ 
+
+}
+
+#midden{
+    background-color:rgb(221, 248, 98);
+    height: 150px;
+    padding-top: 10px;
+    border-color: black;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    text-align: center;
+    margin: 0;
+
+}
+
+
+
+nav {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 45%;
+    
+}
+
+
+.buttons{
+    padding: 20px;
+    font-weight: bold;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#titeleen{
+    text-align:center;
+    background-color: rgb(80, 235, 132);
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    font-size: 15px;
+
+    
+    
+}
+
+div.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid black;
+    background-color: rgb(80, 235, 132);
+    padding: 30px;
+    font-size: 25px;
+}
+
+#studentNummerShow {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    border: 3px solid black;
+    background-color: rgb(80, 235, 132);
+    padding: 30px;
+    font-size: 25px;
+    margin: 0;
+}
+
+
+
+#fout{ 
+    visibility: hidden;
+}
+
+#devraag{
+    text-align: center;
+    background-color: rgb(221, 248, 98);
+    height: 100px;
+    border-color: black;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.antwoordOpties {
+    text-align: center;
+}
+
+.buttonsvr button {
+    margin: 10px 0;
+    background-color: rgb(80, 235, 132);
+    width: 75%;
+    height: 50px;
+    cursor: pointer;
+    color:black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    font-size: 24px;
+
+}
+
+.buttunsvr button:hover {background-color: rgb(66, 192, 108)}
+
+.buttonsvr button:active {
+    background-color: rgb(66, 192, 108);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px)
+}
+
+button.selected {
+    background-color: rgb(66, 192, 108);
+}
+
+
+.eindStyle {
+    padding: 30px;
+    background-color: rgb(80, 235, 132);
+    text-align: center;
+    margin: 0 auto;
+    width: 300px; 
+}
+
+#boveneind {
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+#resultaat {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+#ondereind {
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+body {
+    background: url(../Achtergrond.jpg)
+    
+}
+
+ 
